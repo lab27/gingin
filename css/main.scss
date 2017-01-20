@@ -1,0 +1,13 @@
+---
+---
+
+@import 'foundation';
+@include foundation-everything;
+@import 'animate';
+
+.callout {
+  margin: 6px;
+  background: #f4f4f4;
+  border-radius: 4px;
+}
+

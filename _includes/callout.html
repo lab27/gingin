@@ -1,0 +1,6 @@
+{% for panel in site.data.panels %}
+	<div class="medium-6 columns end"><a href="{{panel.link}}"><div class="callout">
+				<p>{{panel.name}}</p>
+			</div></a>
+		</div>
+{% endfor %}
